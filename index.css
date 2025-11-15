@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guest {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    
+}
+h1 {
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+    padding:20px
+}
+button {
+}
+
+.slideContainer{
+    width: 75%;
+    margin-top: 200px;
+}
+
+.slider{
+    -webkit-appearance: none;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("https://www.etsy.com/de/listing/1669411127/torhuter-svg-o-fussball-clipart-o") ;
+}
